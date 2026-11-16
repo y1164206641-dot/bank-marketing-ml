@@ -1,0 +1,31 @@
+{
+  "rows": 41188,
+  "columns": 21,
+  "target_rate": 0.11265417111780131,
+  "missing_cells": 0,
+  "duplicate_rows": 12,
+  "categorical_columns": 10,
+  "numeric_columns": 11,
+  "cardinality": {
+    "job": 12,
+    "marital": 4,
+    "education": 8,
+    "default": 3,
+    "housing": 3,
+    "loan": 3,
+    "contact": 2,
+    "month": 10,
+    "day_of_week": 5,
+    "poutcome": 3
+  },
+  "unknown_share": {
+    "job": 0.008012042342429833,
+    "marital": 0.0019423132951345051,
+    "education": 0.042026803923472855,
+    "default": 0.20872584247839177,
+    "housing": 0.0240361270272895,
+    "loan": 0.0240361270272895
+  },
+  "pdays_999_share": 0.9632174419733903,
+  "duration_mean": 258.2850101971448
+}

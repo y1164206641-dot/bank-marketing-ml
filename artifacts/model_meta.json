@@ -1,0 +1,55 @@
+{
+  "model_key": "logistic",
+  "model_label": "逻辑回归 + 校准",
+  "calibration": "isotonic",
+  "calibration_brier": {
+    "raw": 0.086966134357795,
+    "sigmoid": 0.08697825313334909,
+    "isotonic": 0.08679286449621476
+  },
+  "thresholds": {
+    "profit_optimal": {
+      "threshold": 0.27846253088970135,
+      "contact_rate": 0.548194483935172,
+      "profit": 140600.0,
+      "profit_per_contact": 5.711036191559365
+    },
+    "capacity": {
+      "threshold": 0.42759309071705714,
+      "fraction": 0.2,
+      "validation_profit_per_contact": 4.02189365936878
+    }
+  },
+  "business": {
+    "value_per_conversion": 80.0,
+    "cost_per_contact": 5.0,
+    "capacity_fraction": 0.2
+  },
+  "features": [
+    "age",
+    "campaign",
+    "campaign_log",
+    "previous",
+    "previous_log",
+    "pdays_known",
+    "contacted_before",
+    "emp_var_rate",
+    "cons_price_idx",
+    "cons_conf_idx",
+    "euribor3m",
+    "nr_employed",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "day_of_week",
+    "poutcome"
+  ],
+  "trained_at": "2026-11-16T07:35:13+00:00",
+  "data_sha256_16": "74adfc578bf77a7f",
+  "sklearn_version": "1.9.1"
+}

@@ -1,0 +1,67 @@
+{
+  "train_rows": 24619,
+  "test_rows": 16569,
+  "train_positive_rate": 0.1294528616109509,
+  "test_positive_rate": 0.08769388617297362,
+  "drift": {
+    "age": {
+      "train_mean": 40.52390430155571,
+      "test_mean": 39.28136882129277,
+      "std_diff": -0.11923094470780267
+    },
+    "campaign": {
+      "train_mean": 2.707989764003412,
+      "test_mean": 2.3589836441547467,
+      "std_diff": -0.12599437311161604
+    },
+    "previous": {
+      "train_mean": 0.16341037410130388,
+      "test_mean": 0.18715673848753697,
+      "std_diff": 0.047982041974821116
+    },
+    "emp_var_rate": {
+      "train_mean": 0.444518461350989,
+      "test_mean": -0.4569316192890339,
+      "std_diff": -0.5738212491322934
+    },
+    "cons_price_idx": {
+      "train_mean": 93.65993452211707,
+      "test_mean": 93.4504518075925,
+      "std_diff": -0.36190086519250253
+    },
+    "cons_conf_idx": {
+      "train_mean": -39.82446484422601,
+      "test_mean": -41.51020580602329,
+      "std_diff": -0.36423269146722315
+    },
+    "euribor3m": {
+      "train_mean": 4.0607114423819,
+      "test_mean": 2.9683789607097597,
+      "std_diff": -0.6297870310837191
+    },
+    "nr_employed": {
+      "train_mean": 5185.596039644177,
+      "test_mean": 5139.458398213532,
+      "std_diff": -0.6385697703512033
+    }
+  },
+  "train_months": [
+    "apr",
+    "aug",
+    "dec",
+    "jul",
+    "jun",
+    "mar",
+    "may",
+    "nov",
+    "oct",
+    "sep"
+  ],
+  "test_months": [
+    "apr",
+    "dec",
+    "jul",
+    "may",
+    "oct"
+  ]
+}

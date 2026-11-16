@@ -1,0 +1,8 @@
+.pydeps/
+wheels/
+.mplcache/
+data/raw/
+__pycache__/
+*.pyc
+artifacts/*.joblib
+artifacts/*.log
